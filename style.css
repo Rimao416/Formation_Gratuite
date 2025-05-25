@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica";
+   background: linear-gradient(135deg, #e3f2fd 0%, #f8f9fa 100%);
+    height: 100vh;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.facebook-logo{
+    font-size: 56px;
+    font-weight: bold;
+    color: #1877f2;
+}
+.tagline{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.login-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
+    ;
+}
+/* FORMULAIRE */
+.form-input{
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    background: #f5f6f7;
+}
+.form-input:focus{
+    outline: none;
+    border-color: #1877f2;
+}
+.form-input::placeholder{
+    color:#8a8d91;
+}
+.login-button{
+    width: 100%;
+    background-color: #1877f2 ;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: #166fe5;
+}
